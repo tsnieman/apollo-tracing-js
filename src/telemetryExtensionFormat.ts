@@ -9,59 +9,25 @@ import {
   HighResolutionTime
 } from './instrumentation';
 
-export function formatTelemetryData(telemetryCollector: TelemetryCollector) {
+export function formatTelemetryData(telemetryCollector: TelemetryCollector): any {
   return {
     "version": 1,
     "startTime": telemetryCollector.startWallTime.toISOString(),
     "endTime": telemetryCollector.endWallTime.toISOString(),
     "duration": durationHrTimeToNanos(telemetryCollector.duration),
     "execution": {
-      "resolvers": formatResolverCalls(telemetryCollector.resolverCalls)
+      "resolvers": telemetryCollector.resolverCalls.map(resolverCall => {
+        return {
+          path: responsePathAsArray(resolverCall.path),
+          fieldName: resolverCall.fieldName,
+          parentType: resolverCall.parentType,
+          returnType: resolverCall.returnType,
+          startOffset: durationHrTimeToNanos(resolverCall.startOffset),
+          endOffset: resolverCall.endOffset ? durationHrTimeToNanos(resolverCall.endOffset) : undefined
+        }
+      })
     }
   }
-}
-
-export interface ResolverNode {
-  __span?: Span;
-  // String index type should be ResolverNode instead of any, 
-  // but you can't express this because it conflicts with __span
-  [key: string]: any;
-}
-
-export interface Span {
-  startOffset: number;
-  endOffset: number;
-}
-
-function formatResolverCalls(resolverCalls: ResolverCall[]) {
-  let root: ResolverNode = {}
-
-  resolverCalls.forEach(resolverCall => {
-    const path = resolverCall.path;
-    if (!path) return;
-
-    let parent = responsePathAsArray(path.prev)
-      .reduce(
-        (node, segment) => {
-          let child: ResolverNode = node[segment];
-          if (!child) {
-            child = {};
-            node[segment] = child;
-          }
-          return child;
-        },
-        root
-      );
-
-    parent[path.key] = {
-      __span: {
-        startOffset: durationHrTimeToNanos(resolverCall.startOffset),
-        endOffset: resolverCall.endOffset ? durationHrTimeToNanos(resolverCall.endOffset) : undefined
-      }
-    };
-  });
-
-  return root;
 }
 
 // Converts an hrtime array (as returned from process.hrtime) to nanoseconds.

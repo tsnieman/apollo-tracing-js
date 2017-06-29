@@ -42,6 +42,9 @@ export class TelemetryCollector {
 
 export interface ResolverCall {
   path: ResponsePath;
+  fieldName: string,
+  parentType: GraphQLType,
+  returnType: GraphQLType,
   startOffset: HighResolutionTime;
   endOffset?: HighResolutionTime;
 }
@@ -73,6 +76,9 @@ function instrumentField(field: GraphQLField<any, any>): void {
 
     const resolverCall: ResolverCall = {
       path: info.path,
+      fieldName: info.fieldName,
+      parentType: info.parentType,
+      returnType: info.returnType,
       startOffset: process.hrtime(telemetryCollector.startHrTime)
     };
 

@@ -9,7 +9,7 @@
     "compile": "tsc",
     "watch": "tsc -w",
     "prepare": "npm run clean && npm run compile",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "license": "MIT",
   "repository": "apollographql/graphql-telemetry",
@@ -21,9 +21,33 @@
     "graphql": "^0.10.0"
   },
   "devDependencies": {
-    "@types/graphql": "^0.9.2"
+    "@types/graphql": "^0.9.2",
+    "@types/jest": "^20.0.2",
+    "@types/node": "^8.0.7",
+    "graphql": "^0.10.3",
+    "jest": "^20.0.4",
+    "typescript": "^2.3.4"
   },
   "dependencies": {
-    "graphql-tools": "^1.0.0"
+    "core-js": "^2.4.1",
+    "graphql-tools": "^1.0.0",
+    "vlq": "^0.2.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "setupFiles": [
+      "<rootDir>/scripts/jest/setupFile.js"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/scripts/jest/preprocessor.js"
+    },
+    "testMatch": [
+      "**/__tests__/*-test.(ts|tsx|js)"
+    ]
   }
 }

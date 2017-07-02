@@ -1,0 +1,2078 @@
+{ 
+  "resolvers": [
+    {
+      "path": {
+        "key": "feed"
+      },
+      "fieldName": "feed",
+      "parentType": "Query",
+      "returnType": "[Entry]",
+      "startOffset": [
+        0,
+        587016
+      ],
+      "endOffset": [
+        0,
+        6346490
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 0
+        },
+        "key": "repository"
+      },
+      "fieldName": "repository",
+      "parentType": "Entry",
+      "returnType": "Repository!",
+      "startOffset": [
+        0,
+        7255582
+      ],
+      "endOffset": [
+        0,
+        595039640
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 0
+        },
+        "key": "postedBy"
+      },
+      "fieldName": "postedBy",
+      "parentType": "Entry",
+      "returnType": "User!",
+      "startOffset": [
+        0,
+        13005880
+      ],
+      "endOffset": [
+        0,
+        599097972
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 1
+        },
+        "key": "repository"
+      },
+      "fieldName": "repository",
+      "parentType": "Entry",
+      "returnType": "Repository!",
+      "startOffset": [
+        0,
+        14461957
+      ],
+      "endOffset": [
+        0,
+        597011308
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 1
+        },
+        "key": "postedBy"
+      },
+      "fieldName": "postedBy",
+      "parentType": "Entry",
+      "returnType": "User!",
+      "startOffset": [
+        0,
+        14977362
+      ],
+      "endOffset": [
+        0,
+        556789830
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 2
+        },
+        "key": "repository"
+      },
+      "fieldName": "repository",
+      "parentType": "Entry",
+      "returnType": "Repository!",
+      "startOffset": [
+        0,
+        15564875
+      ],
+      "endOffset": [
+        0,
+        595151233
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 2
+        },
+        "key": "postedBy"
+      },
+      "fieldName": "postedBy",
+      "parentType": "Entry",
+      "returnType": "User!",
+      "startOffset": [
+        0,
+        16454958
+      ],
+      "endOffset": [
+        0,
+        571402928
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 3
+        },
+        "key": "repository"
+      },
+      "fieldName": "repository",
+      "parentType": "Entry",
+      "returnType": "Repository!",
+      "startOffset": [
+        0,
+        17678099
+      ],
+      "endOffset": [
+        0,
+        646017238
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 3
+        },
+        "key": "postedBy"
+      },
+      "fieldName": "postedBy",
+      "parentType": "Entry",
+      "returnType": "User!",
+      "startOffset": [
+        0,
+        18631943
+      ],
+      "endOffset": [
+        0,
+        601642537
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 4
+        },
+        "key": "repository"
+      },
+      "fieldName": "repository",
+      "parentType": "Entry",
+      "returnType": "Repository!",
+      "startOffset": [
+        0,
+        21400084
+      ],
+      "endOffset": [
+        0,
+        597296157
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 4
+        },
+        "key": "postedBy"
+      },
+      "fieldName": "postedBy",
+      "parentType": "Entry",
+      "returnType": "User!",
+      "startOffset": [
+        0,
+        21707023
+      ],
+      "endOffset": [
+        0,
+        601670545
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 5
+        },
+        "key": "repository"
+      },
+      "fieldName": "repository",
+      "parentType": "Entry",
+      "returnType": "Repository!",
+      "startOffset": [
+        0,
+        21764499
+      ],
+      "endOffset": [
+        0,
+        613640146
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 5
+        },
+        "key": "postedBy"
+      },
+      "fieldName": "postedBy",
+      "parentType": "Entry",
+      "returnType": "User!",
+      "startOffset": [
+        0,
+        22110799
+      ],
+      "endOffset": [
+        0,
+        601685240
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 6
+        },
+        "key": "repository"
+      },
+      "fieldName": "repository",
+      "parentType": "Entry",
+      "returnType": "Repository!",
+      "startOffset": [
+        0,
+        22147226
+      ],
+      "endOffset": [
+        1,
+        521729008
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 6
+        },
+        "key": "postedBy"
+      },
+      "fieldName": "postedBy",
+      "parentType": "Entry",
+      "returnType": "User!",
+      "startOffset": [
+        0,
+        22349902
+      ],
+      "endOffset": [
+        0,
+        601695200
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 7
+        },
+        "key": "repository"
+      },
+      "fieldName": "repository",
+      "parentType": "Entry",
+      "returnType": "Repository!",
+      "startOffset": [
+        0,
+        22429502
+      ],
+      "endOffset": [
+        0,
+        561203353
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 7
+        },
+        "key": "postedBy"
+      },
+      "fieldName": "postedBy",
+      "parentType": "Entry",
+      "returnType": "User!",
+      "startOffset": [
+        0,
+        22642210
+      ],
+      "endOffset": [
+        0,
+        601708497
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 8
+        },
+        "key": "repository"
+      },
+      "fieldName": "repository",
+      "parentType": "Entry",
+      "returnType": "Repository!",
+      "startOffset": [
+        0,
+        22674967
+      ],
+      "endOffset": [
+        0,
+        599258020
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 8
+        },
+        "key": "postedBy"
+      },
+      "fieldName": "postedBy",
+      "parentType": "Entry",
+      "returnType": "User!",
+      "startOffset": [
+        0,
+        23494438
+      ],
+      "endOffset": [
+        0,
+        601820599
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 9
+        },
+        "key": "repository"
+      },
+      "fieldName": "repository",
+      "parentType": "Entry",
+      "returnType": "Repository!",
+      "startOffset": [
+        0,
+        23533127
+      ],
+      "endOffset": [
+        0,
+        641317967
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 9
+        },
+        "key": "postedBy"
+      },
+      "fieldName": "postedBy",
+      "parentType": "Entry",
+      "returnType": "User!",
+      "startOffset": [
+        0,
+        23778592
+      ],
+      "endOffset": [
+        0,
+        601834773
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 10
+        },
+        "key": "repository"
+      },
+      "fieldName": "repository",
+      "parentType": "Entry",
+      "returnType": "Repository!",
+      "startOffset": [
+        0,
+        23814571
+      ],
+      "endOffset": [
+        0,
+        647786559
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 10
+        },
+        "key": "postedBy"
+      },
+      "fieldName": "postedBy",
+      "parentType": "Entry",
+      "returnType": "User!",
+      "startOffset": [
+        0,
+        24120134
+      ],
+      "endOffset": [
+        0,
+        601844026
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 11
+        },
+        "key": "repository"
+      },
+      "fieldName": "repository",
+      "parentType": "Entry",
+      "returnType": "Repository!",
+      "startOffset": [
+        0,
+        25287380
+      ],
+      "endOffset": [
+        0,
+        588736553
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 11
+        },
+        "key": "postedBy"
+      },
+      "fieldName": "postedBy",
+      "parentType": "Entry",
+      "returnType": "User!",
+      "startOffset": [
+        0,
+        25493724
+      ],
+      "endOffset": [
+        0,
+        601853211
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 12
+        },
+        "key": "repository"
+      },
+      "fieldName": "repository",
+      "parentType": "Entry",
+      "returnType": "Repository!",
+      "startOffset": [
+        0,
+        25528543
+      ],
+      "endOffset": [
+        0,
+        591590510
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 12
+        },
+        "key": "postedBy"
+      },
+      "fieldName": "postedBy",
+      "parentType": "Entry",
+      "returnType": "User!",
+      "startOffset": [
+        0,
+        26180974
+      ],
+      "endOffset": [
+        0,
+        601862640
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 13
+        },
+        "key": "repository"
+      },
+      "fieldName": "repository",
+      "parentType": "Entry",
+      "returnType": "Repository!",
+      "startOffset": [
+        0,
+        26235000
+      ],
+      "endOffset": [
+        1,
+        13445464
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "key": "feed"
+          },
+          "key": 13
+        },
+        "key": "postedBy"
+      },
+      "fieldName": "postedBy",
+      "parentType": "Entry",
+      "returnType": "User!",
+      "startOffset": [
+        0,
+        26528034
+      ],
+      "endOffset": [
+        0,
+        601871744
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 1
+          },
+          "key": "postedBy"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        556858043
+      ],
+      "endOffset": [
+        0,
+        556958188
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 7
+          },
+          "key": "repository"
+        },
+        "key": "owner"
+      },
+      "fieldName": "owner",
+      "parentType": "Repository",
+      "returnType": "User",
+      "startOffset": [
+        0,
+        561407419
+      ],
+      "endOffset": [
+        0,
+        561549753
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "key": "feed"
+              },
+              "key": 7
+            },
+            "key": "repository"
+          },
+          "key": "owner"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        561574527
+      ],
+      "endOffset": [
+        0,
+        561641846
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 7
+          },
+          "key": "repository"
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Repository",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        561709408
+      ],
+      "endOffset": [
+        0,
+        561715138
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 2
+          },
+          "key": "postedBy"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        571449109
+      ],
+      "endOffset": [
+        0,
+        571458200
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 11
+          },
+          "key": "repository"
+        },
+        "key": "owner"
+      },
+      "fieldName": "owner",
+      "parentType": "Repository",
+      "returnType": "User",
+      "startOffset": [
+        0,
+        588773145
+      ],
+      "endOffset": [
+        0,
+        588779437
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "key": "feed"
+              },
+              "key": 11
+            },
+            "key": "repository"
+          },
+          "key": "owner"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        588789599
+      ],
+      "endOffset": [
+        0,
+        588798259
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 11
+          },
+          "key": "repository"
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Repository",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        588806224
+      ],
+      "endOffset": [
+        0,
+        588807803
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 12
+          },
+          "key": "repository"
+        },
+        "key": "owner"
+      },
+      "fieldName": "owner",
+      "parentType": "Repository",
+      "returnType": "User",
+      "startOffset": [
+        0,
+        591630782
+      ],
+      "endOffset": [
+        0,
+        591642678
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "key": "feed"
+              },
+              "key": 12
+            },
+            "key": "repository"
+          },
+          "key": "owner"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        591654994
+      ],
+      "endOffset": [
+        0,
+        591660686
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 12
+          },
+          "key": "repository"
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Repository",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        591669101
+      ],
+      "endOffset": [
+        0,
+        591670823
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 0
+          },
+          "key": "repository"
+        },
+        "key": "owner"
+      },
+      "fieldName": "owner",
+      "parentType": "Repository",
+      "returnType": "User",
+      "startOffset": [
+        0,
+        595095846
+      ],
+      "endOffset": [
+        0,
+        595100912
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "key": "feed"
+              },
+              "key": 0
+            },
+            "key": "repository"
+          },
+          "key": "owner"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        595117676
+      ],
+      "endOffset": [
+        0,
+        595126044
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 0
+          },
+          "key": "repository"
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Repository",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        595138310
+      ],
+      "endOffset": [
+        0,
+        595142064
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 2
+          },
+          "key": "repository"
+        },
+        "key": "owner"
+      },
+      "fieldName": "owner",
+      "parentType": "Repository",
+      "returnType": "User",
+      "startOffset": [
+        0,
+        595168076
+      ],
+      "endOffset": [
+        0,
+        595169488
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "key": "feed"
+              },
+              "key": 2
+            },
+            "key": "repository"
+          },
+          "key": "owner"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        595177477
+      ],
+      "endOffset": [
+        0,
+        595179668
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 2
+          },
+          "key": "repository"
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Repository",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        595187500
+      ],
+      "endOffset": [
+        0,
+        595189366
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 1
+          },
+          "key": "repository"
+        },
+        "key": "owner"
+      },
+      "fieldName": "owner",
+      "parentType": "Repository",
+      "returnType": "User",
+      "startOffset": [
+        0,
+        597261168
+      ],
+      "endOffset": [
+        0,
+        597264387
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "key": "feed"
+              },
+              "key": 1
+            },
+            "key": "repository"
+          },
+          "key": "owner"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        597275216
+      ],
+      "endOffset": [
+        0,
+        597279634
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 1
+          },
+          "key": "repository"
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Repository",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        597287081
+      ],
+      "endOffset": [
+        0,
+        597288303
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 4
+          },
+          "key": "repository"
+        },
+        "key": "owner"
+      },
+      "fieldName": "owner",
+      "parentType": "Repository",
+      "returnType": "User",
+      "startOffset": [
+        0,
+        597305325
+      ],
+      "endOffset": [
+        0,
+        597306400
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "key": "feed"
+              },
+              "key": 4
+            },
+            "key": "repository"
+          },
+          "key": "owner"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        597311891
+      ],
+      "endOffset": [
+        0,
+        597313127
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 4
+          },
+          "key": "repository"
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Repository",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        597317420
+      ],
+      "endOffset": [
+        0,
+        597318359
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 0
+          },
+          "key": "postedBy"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        599125081
+      ],
+      "endOffset": [
+        0,
+        599130660
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 8
+          },
+          "key": "repository"
+        },
+        "key": "owner"
+      },
+      "fieldName": "owner",
+      "parentType": "Repository",
+      "returnType": "User",
+      "startOffset": [
+        0,
+        599278063
+      ],
+      "endOffset": [
+        0,
+        599280480
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "key": "feed"
+              },
+              "key": 8
+            },
+            "key": "repository"
+          },
+          "key": "owner"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        599287594
+      ],
+      "endOffset": [
+        0,
+        599289619
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 8
+          },
+          "key": "repository"
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Repository",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        599295325
+      ],
+      "endOffset": [
+        0,
+        599296441
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 3
+          },
+          "key": "postedBy"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        601661240
+      ],
+      "endOffset": [
+        0,
+        601665105
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 4
+          },
+          "key": "postedBy"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        601679997
+      ],
+      "endOffset": [
+        0,
+        601681651
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 5
+          },
+          "key": "postedBy"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        601691610
+      ],
+      "endOffset": [
+        0,
+        601692699
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 6
+          },
+          "key": "postedBy"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        601704633
+      ],
+      "endOffset": [
+        0,
+        601705814
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 7
+          },
+          "key": "postedBy"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        601809646
+      ],
+      "endOffset": [
+        0,
+        601812218
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 8
+          },
+          "key": "postedBy"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        601830729
+      ],
+      "endOffset": [
+        0,
+        601831734
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 9
+          },
+          "key": "postedBy"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        601840540
+      ],
+      "endOffset": [
+        0,
+        601841521
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 10
+          },
+          "key": "postedBy"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        601849745
+      ],
+      "endOffset": [
+        0,
+        601850727
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 11
+          },
+          "key": "postedBy"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        601858928
+      ],
+      "endOffset": [
+        0,
+        601859905
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 12
+          },
+          "key": "postedBy"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        601868028
+      ],
+      "endOffset": [
+        0,
+        601868945
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 13
+          },
+          "key": "postedBy"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        601877455
+      ],
+      "endOffset": [
+        0,
+        601878371
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 5
+          },
+          "key": "repository"
+        },
+        "key": "owner"
+      },
+      "fieldName": "owner",
+      "parentType": "Repository",
+      "returnType": "User",
+      "startOffset": [
+        0,
+        613696939
+      ],
+      "endOffset": [
+        0,
+        613700752
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "key": "feed"
+              },
+              "key": 5
+            },
+            "key": "repository"
+          },
+          "key": "owner"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        613715627
+      ],
+      "endOffset": [
+        0,
+        613723152
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 5
+          },
+          "key": "repository"
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Repository",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        613734844
+      ],
+      "endOffset": [
+        0,
+        613736893
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 9
+          },
+          "key": "repository"
+        },
+        "key": "owner"
+      },
+      "fieldName": "owner",
+      "parentType": "Repository",
+      "returnType": "User",
+      "startOffset": [
+        0,
+        641354591
+      ],
+      "endOffset": [
+        0,
+        641381969
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "key": "feed"
+              },
+              "key": 9
+            },
+            "key": "repository"
+          },
+          "key": "owner"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        641410072
+      ],
+      "endOffset": [
+        0,
+        641416596
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 9
+          },
+          "key": "repository"
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Repository",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        641426145
+      ],
+      "endOffset": [
+        0,
+        641427675
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 3
+          },
+          "key": "repository"
+        },
+        "key": "owner"
+      },
+      "fieldName": "owner",
+      "parentType": "Repository",
+      "returnType": "User",
+      "startOffset": [
+        0,
+        646114491
+      ],
+      "endOffset": [
+        0,
+        646119012
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "key": "feed"
+              },
+              "key": 3
+            },
+            "key": "repository"
+          },
+          "key": "owner"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        646131897
+      ],
+      "endOffset": [
+        0,
+        646137939
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 3
+          },
+          "key": "repository"
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Repository",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        646146738
+      ],
+      "endOffset": [
+        0,
+        646148877
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 10
+          },
+          "key": "repository"
+        },
+        "key": "owner"
+      },
+      "fieldName": "owner",
+      "parentType": "Repository",
+      "returnType": "User",
+      "startOffset": [
+        0,
+        647824689
+      ],
+      "endOffset": [
+        0,
+        647832478
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "key": "feed"
+              },
+              "key": 10
+            },
+            "key": "repository"
+          },
+          "key": "owner"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        647843221
+      ],
+      "endOffset": [
+        0,
+        647849053
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 10
+          },
+          "key": "repository"
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Repository",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        647857196
+      ],
+      "endOffset": [
+        0,
+        647859069
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 13
+          },
+          "key": "repository"
+        },
+        "key": "owner"
+      },
+      "fieldName": "owner",
+      "parentType": "Repository",
+      "returnType": "User",
+      "startOffset": [
+        1,
+        13478985
+      ],
+      "endOffset": [
+        1,
+        13482033
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "key": "feed"
+              },
+              "key": 13
+            },
+            "key": "repository"
+          },
+          "key": "owner"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        1,
+        13491212
+      ],
+      "endOffset": [
+        1,
+        13496502
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 13
+          },
+          "key": "repository"
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Repository",
+      "returnType": "String!",
+      "startOffset": [
+        1,
+        13506119
+      ],
+      "endOffset": [
+        1,
+        13507243
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 6
+          },
+          "key": "repository"
+        },
+        "key": "owner"
+      },
+      "fieldName": "owner",
+      "parentType": "Repository",
+      "returnType": "User",
+      "startOffset": [
+        1,
+        521765193
+      ],
+      "endOffset": [
+        1,
+        521768474
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "key": "feed"
+              },
+              "key": 6
+            },
+            "key": "repository"
+          },
+          "key": "owner"
+        },
+        "key": "login"
+      },
+      "fieldName": "login",
+      "parentType": "User",
+      "returnType": "String!",
+      "startOffset": [
+        1,
+        521778704
+      ],
+      "endOffset": [
+        1,
+        521784323
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "feed"
+            },
+            "key": 6
+          },
+          "key": "repository"
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Repository",
+      "returnType": "String!",
+      "startOffset": [
+        1,
+        521792597
+      ],
+      "endOffset": [
+        1,
+        521794802
+      ]
+    }
+  ]
+}

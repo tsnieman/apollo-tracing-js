@@ -1,0 +1,1245 @@
+{
+  "resolvers": [
+    {
+      "path": {
+        "key": "hero"
+      },
+      "fieldName": "hero",
+      "parentType": "Query",
+      "returnType": "Character",
+      "startOffset": [
+        0,
+        86253
+      ],
+      "endOffset": [
+        0,
+        97366
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "key": "hero"
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Human",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        237702
+      ],
+      "endOffset": [
+        0,
+        244470
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "key": "hero"
+        },
+        "key": "homePlanet"
+      },
+      "fieldName": "homePlanet",
+      "parentType": "Human",
+      "returnType": "String",
+      "startOffset": [
+        0,
+        255198
+      ],
+      "endOffset": [
+        0,
+        256760
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "key": "hero"
+        },
+        "key": "friends"
+      },
+      "fieldName": "friends",
+      "parentType": "Human",
+      "returnType": "[Character]",
+      "startOffset": [
+        0,
+        268448
+      ],
+      "endOffset": [
+        0,
+        1549580
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "hero"
+            },
+            "key": "friends"
+          },
+          "key": 0
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Human",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        553527
+      ],
+      "endOffset": [
+        0,
+        556855
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "hero"
+            },
+            "key": "friends"
+          },
+          "key": 0
+        },
+        "key": "homePlanet"
+      },
+      "fieldName": "homePlanet",
+      "parentType": "Human",
+      "returnType": "String",
+      "startOffset": [
+        0,
+        564052
+      ],
+      "endOffset": [
+        0,
+        566040
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "hero"
+            },
+            "key": "friends"
+          },
+          "key": 0
+        },
+        "key": "friends"
+      },
+      "fieldName": "friends",
+      "parentType": "Human",
+      "returnType": "[Character]",
+      "startOffset": [
+        0,
+        569602
+      ],
+      "endOffset": [
+        0,
+        3049974
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "hero"
+            },
+            "key": "friends"
+          },
+          "key": 1
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Human",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        665769
+      ],
+      "endOffset": [
+        0,
+        668016
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "hero"
+            },
+            "key": "friends"
+          },
+          "key": 1
+        },
+        "key": "homePlanet"
+      },
+      "fieldName": "homePlanet",
+      "parentType": "Human",
+      "returnType": "String",
+      "startOffset": [
+        0,
+        672796
+      ],
+      "endOffset": [
+        0,
+        673841
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "hero"
+            },
+            "key": "friends"
+          },
+          "key": 1
+        },
+        "key": "friends"
+      },
+      "fieldName": "friends",
+      "parentType": "Human",
+      "returnType": "[Character]",
+      "startOffset": [
+        0,
+        677364
+      ],
+      "endOffset": [
+        0,
+        3058049
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "hero"
+            },
+            "key": "friends"
+          },
+          "key": 2
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Droid",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        858375
+      ],
+      "endOffset": [
+        0,
+        861057
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "hero"
+            },
+            "key": "friends"
+          },
+          "key": 2
+        },
+        "key": "primaryFunction"
+      },
+      "fieldName": "primaryFunction",
+      "parentType": "Droid",
+      "returnType": "String",
+      "startOffset": [
+        0,
+        869051
+      ],
+      "endOffset": [
+        0,
+        870302
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "hero"
+            },
+            "key": "friends"
+          },
+          "key": 2
+        },
+        "key": "friends"
+      },
+      "fieldName": "friends",
+      "parentType": "Droid",
+      "returnType": "[Character]",
+      "startOffset": [
+        0,
+        881379
+      ],
+      "endOffset": [
+        0,
+        3069381
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "hero"
+            },
+            "key": "friends"
+          },
+          "key": 3
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Droid",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        1105406
+      ],
+      "endOffset": [
+        0,
+        1108195
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "hero"
+            },
+            "key": "friends"
+          },
+          "key": 3
+        },
+        "key": "primaryFunction"
+      },
+      "fieldName": "primaryFunction",
+      "parentType": "Droid",
+      "returnType": "String",
+      "startOffset": [
+        0,
+        1113604
+      ],
+      "endOffset": [
+        0,
+        1114729
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "key": "hero"
+            },
+            "key": "friends"
+          },
+          "key": 3
+        },
+        "key": "friends"
+      },
+      "fieldName": "friends",
+      "parentType": "Droid",
+      "returnType": "[Character]",
+      "startOffset": [
+        0,
+        1118125
+      ],
+      "endOffset": [
+        0,
+        3077420
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 0
+            },
+            "key": "friends"
+          },
+          "key": 0
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Human",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        2044337
+      ],
+      "endOffset": [
+        0,
+        2048889
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 0
+            },
+            "key": "friends"
+          },
+          "key": 0
+        },
+        "key": "homePlanet"
+      },
+      "fieldName": "homePlanet",
+      "parentType": "Human",
+      "returnType": "String",
+      "startOffset": [
+        0,
+        2107373
+      ],
+      "endOffset": [
+        0,
+        2110129
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 0
+            },
+            "key": "friends"
+          },
+          "key": 1
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Human",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        2138050
+      ],
+      "endOffset": [
+        0,
+        2139778
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 0
+            },
+            "key": "friends"
+          },
+          "key": 1
+        },
+        "key": "homePlanet"
+      },
+      "fieldName": "homePlanet",
+      "parentType": "Human",
+      "returnType": "String",
+      "startOffset": [
+        0,
+        2144078
+      ],
+      "endOffset": [
+        0,
+        2145452
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 0
+            },
+            "key": "friends"
+          },
+          "key": 2
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Droid",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        2167874
+      ],
+      "endOffset": [
+        0,
+        2169520
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 0
+            },
+            "key": "friends"
+          },
+          "key": 2
+        },
+        "key": "primaryFunction"
+      },
+      "fieldName": "primaryFunction",
+      "parentType": "Droid",
+      "returnType": "String",
+      "startOffset": [
+        0,
+        2174640
+      ],
+      "endOffset": [
+        0,
+        2175734
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 1
+            },
+            "key": "friends"
+          },
+          "key": 0
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Human",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        2395275
+      ],
+      "endOffset": [
+        0,
+        2400729
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 1
+            },
+            "key": "friends"
+          },
+          "key": 0
+        },
+        "key": "homePlanet"
+      },
+      "fieldName": "homePlanet",
+      "parentType": "Human",
+      "returnType": "String",
+      "startOffset": [
+        0,
+        2409196
+      ],
+      "endOffset": [
+        0,
+        2410630
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 1
+            },
+            "key": "friends"
+          },
+          "key": 1
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Human",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        2625968
+      ],
+      "endOffset": [
+        0,
+        2629810
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 1
+            },
+            "key": "friends"
+          },
+          "key": 1
+        },
+        "key": "homePlanet"
+      },
+      "fieldName": "homePlanet",
+      "parentType": "Human",
+      "returnType": "String",
+      "startOffset": [
+        0,
+        2635784
+      ],
+      "endOffset": [
+        0,
+        2638479
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 1
+            },
+            "key": "friends"
+          },
+          "key": 2
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Droid",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        2661656
+      ],
+      "endOffset": [
+        0,
+        2663409
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 1
+            },
+            "key": "friends"
+          },
+          "key": 2
+        },
+        "key": "primaryFunction"
+      },
+      "fieldName": "primaryFunction",
+      "parentType": "Droid",
+      "returnType": "String",
+      "startOffset": [
+        0,
+        2668462
+      ],
+      "endOffset": [
+        0,
+        2669451
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 1
+            },
+            "key": "friends"
+          },
+          "key": 3
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Droid",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        2685189
+      ],
+      "endOffset": [
+        0,
+        2686493
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 1
+            },
+            "key": "friends"
+          },
+          "key": 3
+        },
+        "key": "primaryFunction"
+      },
+      "fieldName": "primaryFunction",
+      "parentType": "Droid",
+      "returnType": "String",
+      "startOffset": [
+        0,
+        2689988
+      ],
+      "endOffset": [
+        0,
+        2690896
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 2
+            },
+            "key": "friends"
+          },
+          "key": 0
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Human",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        2726575
+      ],
+      "endOffset": [
+        0,
+        2728157
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 2
+            },
+            "key": "friends"
+          },
+          "key": 0
+        },
+        "key": "homePlanet"
+      },
+      "fieldName": "homePlanet",
+      "parentType": "Human",
+      "returnType": "String",
+      "startOffset": [
+        0,
+        2734298
+      ],
+      "endOffset": [
+        0,
+        2735282
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 2
+            },
+            "key": "friends"
+          },
+          "key": 1
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Human",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        2749613
+      ],
+      "endOffset": [
+        0,
+        2750747
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 2
+            },
+            "key": "friends"
+          },
+          "key": 1
+        },
+        "key": "homePlanet"
+      },
+      "fieldName": "homePlanet",
+      "parentType": "Human",
+      "returnType": "String",
+      "startOffset": [
+        0,
+        2753880
+      ],
+      "endOffset": [
+        0,
+        2754681
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 2
+            },
+            "key": "friends"
+          },
+          "key": 2
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Human",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        2767395
+      ],
+      "endOffset": [
+        0,
+        2768444
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 2
+            },
+            "key": "friends"
+          },
+          "key": 2
+        },
+        "key": "homePlanet"
+      },
+      "fieldName": "homePlanet",
+      "parentType": "Human",
+      "returnType": "String",
+      "startOffset": [
+        0,
+        2822446
+      ],
+      "endOffset": [
+        0,
+        2824448
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 2
+            },
+            "key": "friends"
+          },
+          "key": 3
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Droid",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        2950444
+      ],
+      "endOffset": [
+        0,
+        2953597
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 2
+            },
+            "key": "friends"
+          },
+          "key": 3
+        },
+        "key": "primaryFunction"
+      },
+      "fieldName": "primaryFunction",
+      "parentType": "Droid",
+      "returnType": "String",
+      "startOffset": [
+        0,
+        2959884
+      ],
+      "endOffset": [
+        0,
+        2960905
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 3
+            },
+            "key": "friends"
+          },
+          "key": 0
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Human",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        2996042
+      ],
+      "endOffset": [
+        0,
+        2997621
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 3
+            },
+            "key": "friends"
+          },
+          "key": 0
+        },
+        "key": "homePlanet"
+      },
+      "fieldName": "homePlanet",
+      "parentType": "Human",
+      "returnType": "String",
+      "startOffset": [
+        0,
+        3001191
+      ],
+      "endOffset": [
+        0,
+        3002093
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 3
+            },
+            "key": "friends"
+          },
+          "key": 1
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Human",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        3015526
+      ],
+      "endOffset": [
+        0,
+        3016977
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 3
+            },
+            "key": "friends"
+          },
+          "key": 1
+        },
+        "key": "homePlanet"
+      },
+      "fieldName": "homePlanet",
+      "parentType": "Human",
+      "returnType": "String",
+      "startOffset": [
+        0,
+        3020473
+      ],
+      "endOffset": [
+        0,
+        3021356
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 3
+            },
+            "key": "friends"
+          },
+          "key": 2
+        },
+        "key": "name"
+      },
+      "fieldName": "name",
+      "parentType": "Human",
+      "returnType": "String!",
+      "startOffset": [
+        0,
+        3033757
+      ],
+      "endOffset": [
+        0,
+        3034926
+      ]
+    },
+    {
+      "path": {
+        "prev": {
+          "prev": {
+            "prev": {
+              "prev": {
+                "prev": {
+                  "key": "hero"
+                },
+                "key": "friends"
+              },
+              "key": 3
+            },
+            "key": "friends"
+          },
+          "key": 2
+        },
+        "key": "homePlanet"
+      },
+      "fieldName": "homePlanet",
+      "parentType": "Human",
+      "returnType": "String",
+      "startOffset": [
+        0,
+        3038206
+      ],
+      "endOffset": [
+        0,
+        3039134
+      ]
+    }
+  ]
+}

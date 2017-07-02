@@ -5,5 +5,6 @@ export {
 } from './instrumentation';
 
 export {
-  formatTelemetryData
+  formatTelemetryData,
+  decodeTelemetryData
 } from './telemetryExtensionFormat';

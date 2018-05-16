@@ -45,10 +45,10 @@ export class TracingExtension<TContext = any>
   public requestDidStart() {
     this.startWallTime = new Date();
     this.startHrTime = process.hrtime();
-  }
-
-  public executionDidStart() {
-    /* ignore */
+    return () => {
+      this.duration = process.hrtime(this.startHrTime);
+      this.endWallTime = new Date();
+    }
   }
 
   public willResolveField(
@@ -70,20 +70,6 @@ export class TracingExtension<TContext = any>
     return () => {
       resolverCall.endOffset = process.hrtime(this.startHrTime);
     };
-  }
-
-  public didResolveField(
-    _source: any,
-    _args: { [argName: string]: any },
-    _context: TContext,
-    info: GraphQLResolveInfo,
-  ) {
-    /* ignore */
-  }
-
-  public requestDidEnd() {
-    this.duration = process.hrtime(this.startHrTime);
-    this.endWallTime = new Date();
   }
 
   public format(): [string, TracingFormat] | undefined {

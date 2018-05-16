@@ -38,6 +38,6 @@
     "singleQuote": true
   },
   "dependencies": {
-    "graphql-extensions": "~0.0.9"
+    "graphql-extensions": "0.1.0-beta.0"
   }
 }

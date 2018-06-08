@@ -45,10 +45,19 @@ export class TracingExtension<TContext = any>
   public requestDidStart() {
     this.startWallTime = new Date();
     this.startHrTime = process.hrtime();
+  }
+
+  public executionDidStart() {
+    // It's a little odd that we record the end time after execution rather than
+    // at the end of the whole request, but because we need to include our
+    // formatted trace in the request itself, we have to record it before the
+    // request is over!  It's also odd that we don't do traces for parse or
+    // validation errors, but runQuery doesn't currently support that, as
+    // format() is only invoked after execution.
     return () => {
       this.duration = process.hrtime(this.startHrTime);
       this.endWallTime = new Date();
-    }
+    };
   }
 
   public willResolveField(
